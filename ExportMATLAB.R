@@ -1,0 +1,77 @@
+
+# Low
+setwd("/Users/svenvanholtencharria/Documents/Econometrics Erasmus/Year 5/Thesis/Code Authors/ReplicationFilesMS17285")
+write.table(bias_low$control, "1.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(bias_low$binom, "2.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(bias_low$unif, "3.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(bias_low$adaptive, "4.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(bias_low$score, "5.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(coverage_low$control, "6.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(coverage_low$binom, "7.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(coverage_low$unif, "8.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(coverage_low$adaptive, "9.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(coverage_low$score, "10.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(relevant_low$control, "11.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(relevant_low$binom, "12.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(relevant_low$unif, "13.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(relevant_low$adaptive, "14.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(relevant_low$score, "15.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(total_low$control, "16.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(total_low$binom, "17.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(total_low$unif, "18.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(total_low$adaptive, "19.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(total_low$score, "20.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+
+
+
+
+
+# Medium
+setwd("/Users/svenvanholtencharria/Documents/Econometrics Erasmus/Year 5/Thesis/Code Authors/ReplicationFilesMS17285")
+write.table(bias_medium$control, "1.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(bias_medium$binom, "2.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(bias_medium$unif, "3.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(bias_medium$adaptive, "4.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(bias_medium$score, "5.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(coverage_medium$control, "6.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(coverage_medium$binom, "7.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(coverage_medium$unif, "8.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(coverage_medium$adaptive, "9.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(coverage_medium$score, "10.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(relevant_medium$control, "11.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(relevant_medium$binom, "12.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(relevant_medium$unif, "13.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(relevant_medium$adaptive, "14.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(relevant_medium$score, "15.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(total_medium$control, "16.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(total_medium$binom, "17.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(total_medium$unif, "18.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(total_medium$adaptive, "19.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(total_medium$score, "20.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+
+
+
+
+
+# high
+setwd("/Users/svenvanholtencharria/Documents/Econometrics Erasmus/Year 5/Thesis/Code Authors/ReplicationFilesMS17285")
+write.table(bias_high$control, "1.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(bias_high$binom, "2.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(bias_high$unif, "3.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(bias_high$adaptive, "4.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(bias_high$score, "5.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(coverage_high$control, "6.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(coverage_high$binom, "7.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(coverage_high$unif, "8.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(coverage_high$adaptive, "9.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(coverage_high$score, "10.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(relevant_high$control, "11.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(relevant_high$binom, "12.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(relevant_high$unif, "13.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(relevant_high$adaptive, "14.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(relevant_high$score, "15.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(total_high$control, "16.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(total_high$binom, "17.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(total_high$unif, "18.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(total_high$adaptive, "19.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
+write.table(total_high$score, "20.txt", sep = "\t", row.names = FALSE, col.names = FALSE)
